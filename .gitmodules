@@ -1,0 +1,42 @@
+[submodule ".vim/vim-pathogen"]
+	path = .vim/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen
+[submodule ".vim/js-beautify"]
+	path = .vim/js-beautify
+	url = https://github.com/beautify-web/js-beautify
+[submodule ".vim/jshint2.vim"]
+	path = .vim/jshint2.vim
+	url = https://github.com/Shutnik/jshint2.vim
+[submodule ".vim/vim-colors-solarized"]
+	path = .vim/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/vim-javascript-syntax"]
+	path = .vim/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule ".vim/vim-jsbeautify"]
+	path = .vim/vim-jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule ".vim/vim-sensible"]
+	path = .vim/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule ".vim/bundle/js-beautify"]
+	path = .vim/bundle/js-beautify
+	url = https://github.com/beautify-web/js-beautify
+[submodule ".vim/bundle/jshint2.vim"]
+	path = .vim/bundle/jshint2.vim
+	url = https://github.com/Shutnik/jshint2.vim
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-javascript-syntax"]
+	path = .vim/bundle/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule ".vim/bundle/vim-jsbeautify"]
+	path = .vim/bundle/vim-jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule ".vim/bundle/vim-sensible"]
+	path = .vim/bundle/vim-sensible
+	url = git://github.com/tpope/vim-sensible.git
+[submodule ".vim/bundle/vim-javascript"]
+	path = .vim/bundle/vim-javascript
+	url = https://github.com/pangloss/vim-javascript.git
