@@ -2,4 +2,7 @@
 
 .happiness
 
-`echo "gitdir: /path/to/home/dotenv/.git" > ~/.git`
+```
+cd ~/ && git clone --recursive https://github.com/AndrewGG/dotenv
+echo "gitdir: /path/to/home/dotenv/.git" > ~/.git
+```
