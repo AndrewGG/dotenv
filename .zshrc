@@ -19,7 +19,9 @@ ZSH_THEME="andrewgg"
 # export UPDATE_ZSH_DAYS=13
 
 # Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
+DISABLE_LS_COLORS="true"
+eval `gdircolors ~/dotenv/dircolors-solarized/dircolors.ansi-universal`
+alias ls="ls --color"
 
 # Uncomment the following line to disable auto-setting terminal title.
 # DISABLE_AUTO_TITLE="true"
@@ -52,7 +54,9 @@ plugins=(bower brew git npm pip python tmux)
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
+export PATH=/usr/local/opt/coreutils/libexec/gnubin:$PATH
+
+export MANPATH=/usr/local/opt/coreutils/libexec/gnuman:/usr/local/man:$MANPATH
 
 source $ZSH/oh-my-zsh.sh
 

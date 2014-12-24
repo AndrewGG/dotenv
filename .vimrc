@@ -1,8 +1,26 @@
-" pathogen
-execute pathogen#infect()
+" vundle
+set nocompatible
+filetype off
+set rtp+=~/.vim/vundle
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'tpope/vim-sensible'
+Plugin 'Raimondi/delimitMate'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'einars/js-beautify'
+Plugin 'Shutnik/jshint2.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'nathanaelkane/vim-indent-guides'
+Bundle 'pangloss/vim-javascript'
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'scrooloose/nerdtree'
+
+call vundle#end()
+filetype plugin indent on
 
 " solarized
-" syntax enable
 set background=dark
 colorscheme solarized
 
@@ -23,3 +41,8 @@ autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
 " delimitMate
 " autocmd FileType javascript let b:delimitMate_expand_cr = 1
 let g:delimitMate_expand_cr = 1
+
+" experimental
+" Use kj to exit insert mode
+:inoremap kj <esc>
+:inoremap <esc> <nop>
