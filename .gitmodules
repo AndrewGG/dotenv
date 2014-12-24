@@ -46,6 +46,3 @@
 [submodule ".vim/bundle/Vundle"]
 	path = .vim/bundle/Vundle
 	url = https://github.com/gmarik/Vundle.git
-[submodule ".vim/bundle/Vundle.vim"]
-	path = .vim/bundle/Vundle.vim
-	url = https://github.com/gmarik/Vundle.vim.git
